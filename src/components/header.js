@@ -16,7 +16,7 @@ const Header = (title, date, temp) => {
   const headerEl = document.createElement('div');
     const dateEl = document.createElement('span');
     const titleEl = document.createElement('h1');
-    const tempEl = document.createElement('temp');
+    const tempEl = document.createElement('span');
   
   //Creating the Structure
   headerEl.appendChild(dateEl);
@@ -42,6 +42,8 @@ const headerAppender = (selector) => {
   // It should create a header using the Header component above, passing arguments of your choosing.
   // It should append the header to the element in the DOM that matches the given selector.
   //
+  
+  document.querySelector(`${selector}`).appendChild(Header('A long way home!','2/11/2022','35C'))
 }
 
 export { Header, headerAppender }
