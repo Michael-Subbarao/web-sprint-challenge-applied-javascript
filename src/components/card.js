@@ -63,7 +63,7 @@ const cardAppender = (selector) => {
   //get data from the response.
   axios.get('http://localhost:5000/api/articles')
   .then(response => {//response data structure data{articles{javascript[{headline: x,}{}{}]},x{[{}]},x{[{}]}}} 
-    console.log(response.data.articles); //dataObj<=articlesObj<=articleTypesObj<=articleArray<=articleObj
+    //dataObj<=articlesObj<=articleTypesObj<=articleArray<=articleObj
     for(let articleTypeObj in response.data.articles){
       response.data.articles[`${articleTypeObj}`].forEach(article =>{ 
           //console.log({headline: article.headline,authorPhoto: article.authorPhoto,authorName: article.authorName});

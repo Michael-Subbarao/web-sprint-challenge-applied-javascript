@@ -10,10 +10,10 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Set Up
 
-- [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [X] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
+- [X] Open the assignment in Canvas and click on the "Set up git" option.
+- [X] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [x] Check to see that Codegrade has accepted your git submission.
 
 ## Project Instructions
 
@@ -27,17 +27,17 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Instructions
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to `http://localhost:3000`
-- [ ] In a separate terminal, run `npm test` to run tests.
+- [X] Navigate to the root of the project with your command line.
+- [X] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [X] Run `npm start` to compile the project and serve it.
+- [X] Navigate Chrome to `http://localhost:3000`
+- [X] In a separate terminal, run `npm test` to run tests.
 
 **Steps Required for MVP:**
 
-- [ ] Steps 1 and 2 are explained inside the `src/components/header.js` file.
-- [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+- [X] Steps 1 and 2 are explained inside the `src/components/header.js` file.
+- [X] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
+- [X] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
@@ -50,17 +50,22 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [X] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
+- [X] Check Codegrade for automated feedback.
+- [X] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [X] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Demonstrate your understanding of this week's concepts by answering the following questions:
 
 1. What is the DOM?
+    The Document Object Model is the data that represents a document on a webpage through nodes and objects. This allows us to interact with the document from programming languages like JS.
 2. What is an event?
+    An event is used to use a programming language to interact with a HTML element.
 3. What is an event listener?
+    An event listener checks for some interaction with the document or an HTML element in the document and triggers an event. For example, an event listener will check for a click on an html element and trigger some event.
 4. Why would we convert a NodeList into an Array?
+    While a Nodelist can access many different properties and functions similar to an array in ES6 (such as forEach()), it still does not allow for may of the array functions to be used on it such as pop(), push(), etc.
 5. What is a component?
+    A component combines multiple technologies such as Html,Css,Js in order to create a reusable component for a website/app. By doing this you don't have to re-create entire sections of CSS and HTMl which would be tedious or impossible depending on the scope of the project.
